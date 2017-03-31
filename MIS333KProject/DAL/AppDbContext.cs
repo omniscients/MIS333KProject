@@ -8,6 +8,6 @@ namespace MIS333KProject.DAL
 {
     public class AppDbContext : DbContext
     {
-        public AppDbContext() : base("MIS333KProjectDB") { } 
+       
     }
 }
