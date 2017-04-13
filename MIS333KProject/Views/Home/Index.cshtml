@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Longhorn Bank Home</h2>
+
+<div class="container">
+    @Html.ActionLink("Employees", "Index", "Employees", null, new { @class = "btn btn-primary" })
+
+    @Html.ActionLink("CheckingAccounts", "Index", "CheckingAccounts", null, new { @class = "btn btn-success" })
+
+    @Html.ActionLink("Customers", "Index", "Customers", null, new { @class = "btn btn-danger" })
+
+    @Html.ActionLink("IRAs", "Index", "IRAs", null, new { @class = "btn btn-primary" })
+
+    @Html.ActionLink("SavingsAccounts", "Index", "SavingsAccounts", null, new { @class = "btn btn-success" })
+</div>
