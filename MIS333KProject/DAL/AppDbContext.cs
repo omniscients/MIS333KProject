@@ -9,6 +9,7 @@ namespace MIS333KProject.DAL
 {
     public class AppDbContext : DbContext
     {
+
         public AppDbContext() : base("KProject") { } 
 
         public DbSet<CheckingAccount> CheckingAccounts { get; set; }
@@ -20,5 +21,7 @@ namespace MIS333KProject.DAL
         public DbSet<IRA> IRAs { get; set; }
 
         public DbSet<SavingsAccount> SavingsAccounts { get; set; }
+
+
     }
 }
